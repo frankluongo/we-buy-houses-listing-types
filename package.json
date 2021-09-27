@@ -1,0 +1,12 @@
+{
+  "name": "listing-type",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "sass": "^1.41.1"
+  }
+}

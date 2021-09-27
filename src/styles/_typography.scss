@@ -1,0 +1,21 @@
+html,
+body {
+  font-family: $font-primary;
+}
+
+.listings-h2 {
+  --listings-h2-fs: 16px;
+
+  font-family: $font-primary;
+  font-size: var(--listings-h2-fs);
+}
+
+strong {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .listings-h2 {
+    --listings-h2-fs: 32px;
+  }
+}

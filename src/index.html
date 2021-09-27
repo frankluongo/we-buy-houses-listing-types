@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/app.scss">
+</head>
+
+<body>
+  <section class="listings-outer">
+    <header class="listings-header">
+      <h2 class="listings-h2">Choose Your <strong>Listing Type</strong></h2>
+    </header>
+    <section class="listings-inner">
+      <section class="listings">
+        <div class="listings-table-wrapper">
+          <table class="listings-table">
+            <thead class="listings-table__head">
+              <tr class="listings-table__row header-row">
+                <th class="listings-table__header">&nbsp;</th>
+                <th class="listings-table__header">
+                  <span class="listings-table-header__text">Basic Listing</span>
+                  <span class="listings-table-header__price">$7<sup>95</sup></span>
+                </th>
+                <th class="listings-table__header">
+                  <span class="listings-table-header__text">Verified Listing</span>
+                  <span class="listings-table-header__price">$19<sup>95</sup></span>
+                </th>
+                <th class="listings-table__header">
+                  <span class="listings-table-header__text">PRO Listing</span>
+                  <span class="listings-table-header__price">$99<sup>95</sup></span>
+                </th>
+              </tr>
+            </thead>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">
+                1 Location Listing
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">
+                Customized business description
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">
+                Indirect Seller lead contacts
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <span class="listings-table-item__na">--</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">
+                No-Follow links to your website
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <span class="listings-table-item__na">--</span>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <span class="listings-table-item__na">--</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">
+                Do-follow links to your website
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon failure" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.65364 7L13.6337 3.01994C14.1221 2.53153 14.1221 1.73966 13.6337 1.25085L12.7491 0.366307C12.2607 -0.122102 11.4689 -0.122102 10.9801 0.366307L7 4.34636L3.01994 0.366307C2.53153 -0.122102 1.73966 -0.122102 1.25085 0.366307L0.366307 1.25085C-0.122102 1.73926 -0.122102 2.53114 0.366307 3.01994L4.34636 7L0.366307 10.9801C-0.122102 11.4685 -0.122102 12.2603 0.366307 12.7491L1.25085 13.6337C1.73926 14.1221 2.53153 14.1221 3.01994 13.6337L7 9.65364L10.9801 13.6337C11.4685 14.1221 12.2607 14.1221 12.7491 13.6337L13.6337 12.7491C14.1221 12.2607 14.1221 11.4689 13.6337 10.9801L9.65364 7Z"
+                      fill="#B7B7B7" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">
+                Verified Listing Status
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon failure" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.65364 7L13.6337 3.01994C14.1221 2.53153 14.1221 1.73966 13.6337 1.25085L12.7491 0.366307C12.2607 -0.122102 11.4689 -0.122102 10.9801 0.366307L7 4.34636L3.01994 0.366307C2.53153 -0.122102 1.73966 -0.122102 1.25085 0.366307L0.366307 1.25085C-0.122102 1.73926 -0.122102 2.53114 0.366307 3.01994L4.34636 7L0.366307 10.9801C-0.122102 11.4685 -0.122102 12.2603 0.366307 12.7491L1.25085 13.6337C1.73926 14.1221 2.53153 14.1221 3.01994 13.6337L7 9.65364L10.9801 13.6337C11.4685 14.1221 12.2607 14.1221 12.7491 13.6337L13.6337 12.7491C14.1221 12.2607 14.1221 11.4689 13.6337 10.9801L9.65364 7Z"
+                      fill="#B7B7B7" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">
+                Verified Home Buyer Logo on Listing
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon failure" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.65364 7L13.6337 3.01994C14.1221 2.53153 14.1221 1.73966 13.6337 1.25085L12.7491 0.366307C12.2607 -0.122102 11.4689 -0.122102 10.9801 0.366307L7 4.34636L3.01994 0.366307C2.53153 -0.122102 1.73966 -0.122102 1.25085 0.366307L0.366307 1.25085C-0.122102 1.73926 -0.122102 2.53114 0.366307 3.01994L4.34636 7L0.366307 10.9801C-0.122102 11.4685 -0.122102 12.2603 0.366307 12.7491L1.25085 13.6337C1.73926 14.1221 2.53153 14.1221 3.01994 13.6337L7 9.65364L10.9801 13.6337C11.4685 14.1221 12.2607 14.1221 12.7491 13.6337L13.6337 12.7491C14.1221 12.2607 14.1221 11.4689 13.6337 10.9801L9.65364 7Z"
+                      fill="#B7B7B7" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">
+                Permission to use verified logo
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon failure" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.65364 7L13.6337 3.01994C14.1221 2.53153 14.1221 1.73966 13.6337 1.25085L12.7491 0.366307C12.2607 -0.122102 11.4689 -0.122102 10.9801 0.366307L7 4.34636L3.01994 0.366307C2.53153 -0.122102 1.73966 -0.122102 1.25085 0.366307L0.366307 1.25085C-0.122102 1.73926 -0.122102 2.53114 0.366307 3.01994L4.34636 7L0.366307 10.9801C-0.122102 11.4685 -0.122102 12.2603 0.366307 12.7491L1.25085 13.6337C1.73926 14.1221 2.53153 14.1221 3.01994 13.6337L7 9.65364L10.9801 13.6337C11.4685 14.1221 12.2607 14.1221 12.7491 13.6337L13.6337 12.7491C14.1221 12.2607 14.1221 11.4689 13.6337 10.9801L9.65364 7Z"
+                      fill="#B7B7B7" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">
+                Direct seller lead contact
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon failure" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.65364 7L13.6337 3.01994C14.1221 2.53153 14.1221 1.73966 13.6337 1.25085L12.7491 0.366307C12.2607 -0.122102 11.4689 -0.122102 10.9801 0.366307L7 4.34636L3.01994 0.366307C2.53153 -0.122102 1.73966 -0.122102 1.25085 0.366307L0.366307 1.25085C-0.122102 1.73926 -0.122102 2.53114 0.366307 3.01994L4.34636 7L0.366307 10.9801C-0.122102 11.4685 -0.122102 12.2603 0.366307 12.7491L1.25085 13.6337C1.73926 14.1221 2.53153 14.1221 3.01994 13.6337L7 9.65364L10.9801 13.6337C11.4685 14.1221 12.2607 14.1221 12.7491 13.6337L13.6337 12.7491C14.1221 12.2607 14.1221 11.4689 13.6337 10.9801L9.65364 7Z"
+                      fill="#B7B7B7" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon failure" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.65364 7L13.6337 3.01994C14.1221 2.53153 14.1221 1.73966 13.6337 1.25085L12.7491 0.366307C12.2607 -0.122102 11.4689 -0.122102 10.9801 0.366307L7 4.34636L3.01994 0.366307C2.53153 -0.122102 1.73966 -0.122102 1.25085 0.366307L0.366307 1.25085C-0.122102 1.73926 -0.122102 2.53114 0.366307 3.01994L4.34636 7L0.366307 10.9801C-0.122102 11.4685 -0.122102 12.2603 0.366307 12.7491L1.25085 13.6337C1.73926 14.1221 2.53153 14.1221 3.01994 13.6337L7 9.65364L10.9801 13.6337C11.4685 14.1221 12.2607 14.1221 12.7491 13.6337L13.6337 12.7491C14.1221 12.2607 14.1221 11.4689 13.6337 10.9801L9.65364 7Z"
+                      fill="#B7B7B7" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">
+                Guest Post Opportunity
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon failure" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.65364 7L13.6337 3.01994C14.1221 2.53153 14.1221 1.73966 13.6337 1.25085L12.7491 0.366307C12.2607 -0.122102 11.4689 -0.122102 10.9801 0.366307L7 4.34636L3.01994 0.366307C2.53153 -0.122102 1.73966 -0.122102 1.25085 0.366307L0.366307 1.25085C-0.122102 1.73926 -0.122102 2.53114 0.366307 3.01994L4.34636 7L0.366307 10.9801C-0.122102 11.4685 -0.122102 12.2603 0.366307 12.7491L1.25085 13.6337C1.73926 14.1221 2.53153 14.1221 3.01994 13.6337L7 9.65364L10.9801 13.6337C11.4685 14.1221 12.2607 14.1221 12.7491 13.6337L13.6337 12.7491C14.1221 12.2607 14.1221 11.4689 13.6337 10.9801L9.65364 7Z"
+                      fill="#B7B7B7" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon failure" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.65364 7L13.6337 3.01994C14.1221 2.53153 14.1221 1.73966 13.6337 1.25085L12.7491 0.366307C12.2607 -0.122102 11.4689 -0.122102 10.9801 0.366307L7 4.34636L3.01994 0.366307C2.53153 -0.122102 1.73966 -0.122102 1.25085 0.366307L0.366307 1.25085C-0.122102 1.73926 -0.122102 2.53114 0.366307 3.01994L4.34636 7L0.366307 10.9801C-0.122102 11.4685 -0.122102 12.2603 0.366307 12.7491L1.25085 13.6337C1.73926 14.1221 2.53153 14.1221 3.01994 13.6337L7 9.65364L10.9801 13.6337C11.4685 14.1221 12.2607 14.1221 12.7491 13.6337L13.6337 12.7491C14.1221 12.2607 14.1221 11.4689 13.6337 10.9801L9.65364 7Z"
+                      fill="#B7B7B7" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">
+                9 Additional Listings
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon failure" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.65364 7L13.6337 3.01994C14.1221 2.53153 14.1221 1.73966 13.6337 1.25085L12.7491 0.366307C12.2607 -0.122102 11.4689 -0.122102 10.9801 0.366307L7 4.34636L3.01994 0.366307C2.53153 -0.122102 1.73966 -0.122102 1.25085 0.366307L0.366307 1.25085C-0.122102 1.73926 -0.122102 2.53114 0.366307 3.01994L4.34636 7L0.366307 10.9801C-0.122102 11.4685 -0.122102 12.2603 0.366307 12.7491L1.25085 13.6337C1.73926 14.1221 2.53153 14.1221 3.01994 13.6337L7 9.65364L10.9801 13.6337C11.4685 14.1221 12.2607 14.1221 12.7491 13.6337L13.6337 12.7491C14.1221 12.2607 14.1221 11.4689 13.6337 10.9801L9.65364 7Z"
+                      fill="#B7B7B7" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon failure" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9.65364 7L13.6337 3.01994C14.1221 2.53153 14.1221 1.73966 13.6337 1.25085L12.7491 0.366307C12.2607 -0.122102 11.4689 -0.122102 10.9801 0.366307L7 4.34636L3.01994 0.366307C2.53153 -0.122102 1.73966 -0.122102 1.25085 0.366307L0.366307 1.25085C-0.122102 1.73926 -0.122102 2.53114 0.366307 3.01994L4.34636 7L0.366307 10.9801C-0.122102 11.4685 -0.122102 12.2603 0.366307 12.7491L1.25085 13.6337C1.73926 14.1221 2.53153 14.1221 3.01994 13.6337L7 9.65364L10.9801 13.6337C11.4685 14.1221 12.2607 14.1221 12.7491 13.6337L13.6337 12.7491C14.1221 12.2607 14.1221 11.4689 13.6337 10.9801L9.65364 7Z"
+                      fill="#B7B7B7" />
+                  </svg>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <svg class="listing-table-item__icon success" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16 8C16 12.4183 12.4183 16 8 16C3.58171 16 0 12.4183 0 8C0 3.58171 3.58171 0 8 0C12.4183 0 16 3.58171 16 8ZM7.07464 12.2359L13.0101 6.30045C13.2117 6.0989 13.2117 5.7721 13.0101 5.57055L12.2802 4.84064C12.0787 4.63906 11.7519 4.63906 11.5503 4.84064L6.70968 9.68123L4.44971 7.42126C4.24816 7.21971 3.92135 7.21971 3.71977 7.42126L2.98987 8.15116C2.78832 8.35271 2.78832 8.67952 2.98987 8.88106L6.34471 12.2359C6.54629 12.4375 6.87306 12.4375 7.07464 12.2359Z"
+                      fill="#26CC69" />
+                  </svg>
+                </div>
+              </td>
+            </tr>
+            <tr class="listings-table__row">
+              <td class="listings-table__item">&nbsp;</td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <button data-button class="button outlined">Select Package</button>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <button data-button class="button outlined">Select Package</button>
+                </div>
+              </td>
+              <td class="listings-table__item">
+                <div class="listings-table-item__content">
+                  <button data-button class="button outlined">Select Package</button>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <button data-continue class="button filled-in continue" disabled>
+        Continue to Next Step
+      </button>
+    </section>
+  </section>
+  <script src="./scripts/app.js"></script>
+</body>
+
+</html>
