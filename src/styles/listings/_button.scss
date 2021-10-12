@@ -24,7 +24,8 @@
 }
 
 .button.outlined:focus,
-.button.outlined:hover {
+.button.outlined:hover,
+.button.outlined.active {
   color: $color-white;
 
   background-color: $color-blue;
